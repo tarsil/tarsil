@@ -11,7 +11,10 @@ Nothing like using [Esmerald][esmerald] to say hi.
 
 ```shell
 $ pip install esmerald
+$ pip install uvicorn
 ```
+
+Then, inside an `app.py`, add this.
 
 ```python
 import uvicorn
@@ -47,6 +50,8 @@ app = Esmerald(
 if __name__ == "__main__":
     uvicorn.run(app, port=8000)
 ```
+
+In the end, run the `./app.py` and access your localhost in the endpoints. Have fun!
 
 [esmerald]: https://esmerald.dev
 [lilya]: https://lilya.dev

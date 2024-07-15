@@ -2,7 +2,7 @@
 
 `tarsil` is also known as Tiago Silva, not the football player but a Software Engineer.
 
-Passtionate to his core, `tarsil` is also the creator of [Esmerald][esmerald], [Lilya][lilya],
+Pationate to his core, `tarsil` is also the creator of [Esmerald][esmerald], [Lilya][lilya],
 [edgy][edgy], [Mongoz][mongoz], [Asyncz][asyncz] and many open source tools out there.
 
 ## Hello from `tarsil`

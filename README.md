@@ -5,6 +5,8 @@
 Passionate to his core, `tarsil` is also the creator of [Esmerald][esmerald], [Lilya][lilya],
 [Edgy][edgy], [Mongoz][mongoz], [Asyncz][asyncz] and many open source tools out there.
 
+I do have a [discord channel](https://discord.gg/tmE8WEW8az) if you want to ask me anything about what I do and my tools.
+
 ## Hello from `tarsil`
 
 Nothing like using [Esmerald][esmerald] to say hi.

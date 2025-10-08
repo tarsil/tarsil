@@ -2,17 +2,17 @@
 
 `tarsil` is also known as Tiago Silva, not the football player but a Software Engineer.
 
-Passionate to his core, `tarsil` is also the creator of [Esmerald][esmerald], [Lilya][lilya],
-[Edgy][edgy], [Mongoz][mongoz], [Asyncz][asyncz] and many open source tools out there.
+Passionate to his core, `tarsil` is also the creator of [Ravyn][ravyn], [Lilya][lilya],
+[Edgy][edgy], [AsyncMQ][asyncmq], [Mongoz][mongoz], [Asyncz][asyncz] and many open source tools out there.
 
 I do have a [discord channel](https://discord.gg/tmE8WEW8az) if you want to ask me anything about what I do and my tools.
 
 ## Hello from `tarsil`
 
-Nothing like using [Esmerald][esmerald] to say hi.
+Nothing like using [Ravyn][ravyn] to say hi.
 
 ```shell
-$ pip install esmerald
+$ pip install ravyn
 $ pip install uvicorn
 ```
 
@@ -21,7 +21,7 @@ Then, inside an `app.py`, add this.
 ```python
 import uvicorn
 
-from esmerald import Esmerald, Gateway, JSONResponse, Request, get
+from ravyn import Ravyn, Gateway, JSONResponse, Request, get
 
 
 @get()
@@ -40,11 +40,11 @@ def user_in_request(request: Request) -> JSONResponse:
     return JSONResponse({"message": f"Welcome to tarsil's Github, {user}"})
 
 
-app = Esmerald(
+app = Ravyn(
     routes=[
-        Gateway("/esmerald", handler=welcome),
-        Gateway("/esmerald/{user}", handler=user),
-        Gateway("/esmerald/in-request/{user}", handler=user_in_request),
+        Gateway("/ravyn", handler=welcome),
+        Gateway("/ravyn/{user}", handler=user),
+        Gateway("/ravyn/in-request/{user}", handler=user_in_request),
     ]
 )
 
@@ -55,8 +55,10 @@ if __name__ == "__main__":
 
 In the end, run the `./app.py` and access your localhost in the endpoints. Have fun!
 
-[esmerald]: https://esmerald.dev
+[ravyn]: https://ravyn.dev
 [lilya]: https://lilya.dev
 [edgy]: https://edgy.dymmond.com
 [mongoz]: https://mongoz.dymmond.com
 [asyncz]: https://asyncz.dymmond.com
+[sayer]: https://sayer.dymmond.com
+[asyncmq]: https://asyncmq.dymmond.com

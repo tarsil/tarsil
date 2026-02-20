@@ -19,7 +19,7 @@ $ pip install palfrey
 Then, inside an `app.py`, add this.
 
 ```python
-import uvicorn
+import palfrey
 
 from ravyn import Ravyn, Gateway, JSONResponse, Request, get
 

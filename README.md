@@ -13,7 +13,7 @@ Nothing like using [Ravyn][ravyn] to say hi.
 
 ```shell
 $ pip install ravyn
-$ pip install uvicorn
+$ pip install palfrey
 ```
 
 Then, inside an `app.py`, add this.
@@ -50,7 +50,7 @@ app = Ravyn(
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    palfrey.run(app, port=8000)
 ```
 
 In the end, run the `./app.py` and access your localhost in the endpoints. Have fun!
